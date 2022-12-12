@@ -10,7 +10,7 @@ int main(void)
 {
 	char * a = "a";
 	char * z = "z";
-	char alpha;
+	char * alpha;
 
 	for (alpha = a; alpha <= z; alpha++)
 	{
