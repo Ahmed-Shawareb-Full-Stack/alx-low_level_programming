@@ -10,11 +10,11 @@ int main(void)
 {
 	char * a = "a";
 	char * z = "z";
-	char * alpha;
+	char alpha;
 
-	for (alpha = a; alpha <= z; alpha++)
+	for (; a <= z; a++)
 	{
-		putchar("%c ", alpha);
+		putchar(a);
 		putchar('\n');
 	}
 
