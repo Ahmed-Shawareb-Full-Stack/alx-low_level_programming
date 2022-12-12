@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char out;
+	int out;
 
 	for (out= '0'; out <= '9'; out++)
 	{
