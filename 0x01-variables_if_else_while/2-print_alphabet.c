@@ -9,10 +9,12 @@ int main(void)
 {
 	char* alpha;
 
-	alpha* = "a";
-	while (alpha* <= "z")
+	alpha = "a";
+	while (alpha <= "z")
 	{
-		putchar("%c \n", alpha*);
+		putchar(alpha);
+		putchar("\n");
+
 	}
 
 	return (0);
