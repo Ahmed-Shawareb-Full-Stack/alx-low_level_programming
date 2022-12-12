@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	char * alpha;
+	char a = "a";
+	char z = "z";
 
-	for (alpha = "a"; alpha <= "z"; alpha++)
+	for (char alpha = a; alpha <= z; alpha++)
 	{
 		putchar(alpha);
 		putchar('\n');
