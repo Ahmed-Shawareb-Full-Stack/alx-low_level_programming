@@ -10,7 +10,7 @@ int main(void)
 {
 	int out;
 
-	for (out= '0'; out <= '9'; out++)
+	for (out = '0'; out <= '9'; out++)
 	{
 		putchar(out);
 		if (out != '9')
