@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _isLower - print by using _putchar
+ * _islower - print by using _putchar
+ * @c: input char
  *
  * Return: 1 if lowercase
  */
