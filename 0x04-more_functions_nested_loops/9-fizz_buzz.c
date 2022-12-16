@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - function that checks for uppercase character.
+ * main - function 
  * Return: 0
  */
 int main(void)
