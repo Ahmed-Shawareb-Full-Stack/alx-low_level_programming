@@ -1,32 +1,31 @@
 #include "main.h"
 /**
- * main - FizzBuzz
- *
- * Description: prints the numbers 1 - 100 w/
- * Fizz for multiples of 3, Buzz for multiples of 5,
- * and FizzBuzz for multiples of both
- *
- * Return: always 0
-*/
-
+ * main - function that checks for uppercase character.
+ * Return: 0
+ */
 int main(void)
 {
-	int i;
+	int h = 1;
 
-	for (i = 1; i <= 100; i++)
+	while (h <= 100)
 	{
-		if (i % 15 == 0)
-			printf("FizzBuzz");
-		else if (i % 3 == 0)
-			printf("Fizz");
-		else if (i % 5 == 0)
-			printf("Buzz");
-		else
-			printf("%i", i);
-		if (i < 100)
-			printf(" ");
+		if (h % 3 == 0 && h % 5 == 0)
+			printf("FizzBuzz ");
+		else if (h % 5 == 0)
+		{
+			if (h == 100)
+			{
+				printf("Buzz");
+				printf("\n");
+			}
+			else
+				printf("Buzz ");
+		}
+		else if (h % 3 == 0)
+			printf("Fizz ");
+		else=
+			printf("%d ", h);
+		h++;
 	}
-	printf("\n");
-
 	return (0);
 }
