@@ -1,6 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * main - function 
+ * main - function
  * Return: 0
  */
 int main(void)
@@ -23,7 +24,7 @@ int main(void)
 		}
 		else if (h % 3 == 0)
 			printf("Fizz ");
-		else=
+		else
 			printf("%d ", h);
 		h++;
 	}
