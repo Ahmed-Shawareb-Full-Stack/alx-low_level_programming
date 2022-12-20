@@ -1,9 +1,10 @@
 #include "main.h"
 #include<stdio.h>
-/**i
+/**
  * print_array - print content of array
  * @a: input array
  * @n: type integer
+ * description: print array content
  */
 void print_array(int *a, int n)
 {
