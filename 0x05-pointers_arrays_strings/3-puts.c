@@ -5,7 +5,7 @@
  * Return: no retur
  */
 
-int _puts(*s)
+int _puts( *s)
 {
 	while (*s)
 		_putchar(*++s);
