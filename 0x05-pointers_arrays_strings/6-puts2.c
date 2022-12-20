@@ -3,6 +3,7 @@
 /**
  * puts - print one out of 2
  * @s: input string
+ * Description: print 1 out of 2
  */
 
 void puts2(char *s)
