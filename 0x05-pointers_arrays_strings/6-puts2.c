@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * puts - print one out of 2
+ * puts22 - print one out of 2
  * @s: input string
  * Description: print 1 out of 2
  */
