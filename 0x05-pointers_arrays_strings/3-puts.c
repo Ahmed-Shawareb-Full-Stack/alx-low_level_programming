@@ -5,9 +5,9 @@
  * Return: no retur
  */
 
-int _puts( *s)
+int _puts(char *s)
 {
 	while (*s)
-		_putchar(*++s);
+		_putchar(*s++);
 	_putchar('\n');
 }
