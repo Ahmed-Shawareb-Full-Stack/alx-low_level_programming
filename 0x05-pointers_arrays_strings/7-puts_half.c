@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * puts-half - print second have of a string
