@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts-half - print second have of a string
+ * puts_half - print second have of a string
  * @s: input string
  */
 
