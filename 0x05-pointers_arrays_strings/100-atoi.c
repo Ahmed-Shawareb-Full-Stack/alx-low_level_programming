@@ -4,6 +4,7 @@
 /**
  * _atoi - return the numbers in a text
  * @s: input string
+ * Return: numbers in a string
  */
 
 int _atoi(char *s)
