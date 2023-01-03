@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strspn - gets the length of a prefix substring.
  * @s: character to print
@@ -13,20 +12,15 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s != '\0')
 	{
 		while (*accept != '\0')
-
 		{
 			if (*s == *accept)
 				break;
 			count++;
 			accept++;
-
-
 			s++;
-
 		}
 		if (*accept == '\0')
 			break;
-
 	}
 	return (count + 1);
 }
